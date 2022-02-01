@@ -1,0 +1,78 @@
+@use '../helpers/variables';
+
+
+.divider {
+    border-bottom: 100px solid rgb(255, 255, 255);
+    border-left: 85px solid transparent;
+    border-right: 85px solid transparent;
+    height: 0;
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+}
+
+.app-community-container {
+    background-color: $color-white;
+    padding-top: 80px;
+}
+
+.app-community {
+    margin-right: 6%;
+}
+
+.app-community-label {    
+    @include h3;
+    font-weight: 600;
+    opacity: 0.7;
+    text-transform: uppercase;
+    color: $color-navy;
+}
+
+.app-community-title {
+    @include h2;
+    color: $color-navy;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.app-community-content {
+    @include h3;
+    font-weight: 600;
+    color: $color-navy;
+    max-width: 458px;
+    width: 100%;
+    padding-bottom: 59px;
+
+}
+
+.app-community-item-headline {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.app-community-item-title {
+    @include h3;
+    font-weight: 700;
+    color: $color-navy;
+}
+
+.app-community-item-icon {
+    background-color: #CFF4E7;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-navy;
+}
+
+.app-community-item-description {
+    @include p-2;
+    color: $color-navy;
+    max-width: 390px;
+    width: 100%;
+    padding: 4px 0px 33px 64px;
+
+}

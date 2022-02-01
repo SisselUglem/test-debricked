@@ -1,0 +1,74 @@
+@use '../helpers/variables';
+@import '../helpers/mixins';
+
+.app-search-box{
+    background-color: $color-light-navy;
+    opacity: 100%;
+    width: 100%;
+    padding: 65px 70px;
+    margin: 150px 15px 100px 15px;
+    border-radius: 12px;
+}
+.app-search-title {
+    @include h2;
+    margin-bottom: 48px;
+}
+
+.app-searc-container {
+    display: flex;
+}
+
+.app-search-input{
+    width: 70%;
+    height: 61px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    &:hover, :active, :focus {
+        box-shadow: 6px 6px 15px -8px #000000;
+    }
+}
+
+.uil-search {
+    font-size: 22px;
+    padding: 0px 17px 0px 17px;
+}
+
+.input-field {
+    background-color: transparent;
+    border: 0px transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: $color-white;
+    opacity: 100%;
+    width: 100%;
+    border-radius: inherit;
+    height: inherit;
+
+    &::placeholder {
+        @include placeholder;
+      }
+      
+    &:-ms-input-placeholder {
+        @include placeholder;
+      }
+      
+    &::-ms-input-placeholder { 
+        @include placeholder;
+    }
+}
+
+.app-search-button {
+    margin-left: 67px;
+    display: flex;
+    align-items: center;
+}
+
+.app-search-img {
+    margin: 0% 0% -110px 16%;
+
+}

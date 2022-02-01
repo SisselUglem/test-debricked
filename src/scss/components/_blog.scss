@@ -1,0 +1,58 @@
+@use '../helpers/variables';
+
+
+.app-blog {
+    background: linear-gradient(180deg, #ECF6FC 61.86%, #FFFFFF 100%);
+}
+
+.app-blog-container {
+    padding: 150px 15px 60px 15px;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.app-container-intro{
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+}
+.app-blog-label {
+    @include h3;
+    font-weight: 600;
+    opacity: 0.7;
+    text-transform: uppercase;
+    color: $color-navy;
+}
+
+.app-blog-title {
+    @include h2;
+    color: $color-navy;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    max-width: 500px;
+    width: 100%
+}
+
+.app-blog-content{
+    @include p-2;
+    font-weight: 600;
+    color: $color-navy;
+    max-width: 624px;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+
+.app-blog-item-description {
+    @include p-2;
+    font-weight: normal;
+    color: $color-navy;
+    max-width: 390px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.dist {
+    justify-content: space-between;
+}

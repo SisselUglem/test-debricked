@@ -1,0 +1,22 @@
+@import '../helpers/mixins';
+
+.button-primary {
+    @include btn-primary;
+}
+
+.button-secondary {
+    @include btn-secondary;
+}
+
+.button-secondary-color-1 {
+    @include btn-secondary-color-1;
+
+}
+
+.button-secondary-color-2 {
+    @include btn-secondary-color-2;
+}
+
+.button-secondary-color-3 {
+    @include btn-secondary-color-3;
+}

@@ -1,0 +1,67 @@
+@use '../helpers/variables';
+
+.app-testimonial {
+    padding-top: 8%;
+}
+
+.app-testimonial-cta {
+    background-color: $color-light-navy;
+    opacity: 100%;
+    width: 100%;
+    padding: 65px 70px;
+    margin: 60px 15px 100px 15px;
+    border-radius: 12px;
+}
+
+
+.app-testimonial-content-container{
+    margin-left: 15%
+}
+
+.app-testimonial-label {
+    @include h3;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+.app-testimonial-content {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    opacity: 0.85;
+    padding-top: 16px;
+    max-width: 610px;
+    width: 100%;
+}
+
+.app-testimonial-author{
+    padding-top: 34px;
+}
+
+.app-testimonial-name {
+    @include h3;
+    font-weight: 700;
+
+    &__position {
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+.app-testimonial-box-headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.app-testimonial-cta-description {
+    @include h3;
+    font-weight: 600;
+    max-width: 624px;
+    width: 100%;
+    opacity: 0.85;
+}

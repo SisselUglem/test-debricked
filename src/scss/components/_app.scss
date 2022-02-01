@@ -1,2 +1,48 @@
+@use '../helpers/variables';
+@import '../helpers/mixins';
+
 .app {
+    background-color: $color-navy;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.uil {
+    color: inherit;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    justify-content: center;
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+}
+
+.app-description {
+    @include p;
+    margin-top: 24px;
+    max-width: 475px;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.app-footer {
+    height: 45vh;
+    background-color: rgba(0,0,0,.4);
 }

@@ -1,0 +1,46 @@
+@use '../helpers/variables';
+
+.app-header {
+    background-color: #080f27;
+    left: 0;
+    padding: 40px 15px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    
+}
+
+.app-header-container {
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-menu {
+    align-items: flex-end;
+    display: flex;
+
+    &__items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__item {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        padding: 12px 22px;
+        &:hover {
+            color: $color-pink;
+        }
+    }
+
+    &__subitems {
+        display: none;
+    }
+}

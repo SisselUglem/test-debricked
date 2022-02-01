@@ -1,10 +1,15 @@
-// Helpers
+//Helpers
 @import 'helpers/variables';
-@import 'helpers/mixins';
-@import 'helpers/placeholders';
 
-// Global
-@import 'global';
-
-// Components
+//Components
 @import 'components/app';
+@import 'components/header';
+@import 'global';
+@import 'components/buttons';
+@import 'components/intro';
+@import 'components/health';
+@import 'components/search';
+@import 'components/communities';
+@import 'components/testimonial';
+@import 'components/blog';
+@import 'components/explore';

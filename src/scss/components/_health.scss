@@ -1,0 +1,51 @@
+
+@use '../helpers/variables';
+@use '../helpers/mixins';
+
+.app-health {
+    padding: 40px 15px 10px 15px;
+}
+
+.app-health-content {
+    margin-left: 6%;
+}
+
+.app-health-columns {
+    display: flex;
+    flex-direction: row;
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+}
+
+.app-health-column {
+    max-width: 25%;
+    width: 100%;
+}
+
+.app-health-suptitle {
+    @include h3;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+.app-health-title {
+    @include h2;
+    margin-bottom: 5%;
+}
+
+.app-health-column-title {
+    @include h3;
+    font-weight: 700;
+}
+
+.app-health-column-content {
+    @include p-2;
+    color: $color-white;
+    opacity: 0.85;
+    max-width: 248px;
+    width: 100%;
+    padding-top: 4%;
+}

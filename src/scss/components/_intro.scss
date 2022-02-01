@@ -1,0 +1,21 @@
+@import '../helpers/mixins';
+.app-introduction {
+    background: linear-gradient(1turn,transparent,rgba(0,0,0,.4) 59.9%);
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.app-introduction-content {
+    margin-right: 6%;
+}
+
+.app-introduction-title {
+ @include h1;
+}
+
+.app-introduction-cta-items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 61px;
+    gap: 6%;
+}

@@ -1,1 +1,11 @@
 // Global (appropriate for non context specific styles such as css reset etc.)
+
+.link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
