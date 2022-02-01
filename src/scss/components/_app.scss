@@ -46,3 +46,14 @@ ul li {
     height: 45vh;
     background-color: rgba(0,0,0,.4);
 }
+
+.img-resp {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and(max-width: 1100px) {
+    .app-container {
+        flex-direction: column;
+    }
+}

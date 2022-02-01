@@ -11,6 +11,10 @@
     
 }
 
+.toggle-icon {
+    display: none;
+}
+
 .app-header-container {
     max-width: 1240px;
     width: 100%;
@@ -42,5 +46,19 @@
 
     &__subitems {
         display: none;
+    }
+}
+
+
+@media screen and(max-width: 1000px) {
+    .app-menu {
+        display: none;
+    }
+
+    .toggle-icon {
+        display: block;
+        padding-right: 15px;
+        max-width: 60px;
+        width: 100%;
     }
 }

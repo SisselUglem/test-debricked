@@ -59,3 +59,14 @@
 .app-explore-cta-title {
     @include h2;
 }
+
+@media screen and(max-width: 1000px) {
+    .app-explore-cards {
+        flex-direction: column;
+    }
+
+    .app-explore-container {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}

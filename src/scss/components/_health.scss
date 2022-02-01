@@ -49,3 +49,31 @@
     width: 100%;
     padding-top: 4%;
 }
+
+
+
+@media screen and(max-width: 1000px) {
+
+    .app-health-columns {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        max-width: 90%;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .app-health-column {
+        max-width: 48%;
+        width: 100%;
+    }
+
+    .app-health-column-title {
+        padding-top: 20px;
+    }
+
+    .app-testimonial-cta {
+        max-width: 94%;
+        width: 100%;
+    }
+}

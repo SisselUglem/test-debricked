@@ -58,10 +58,28 @@
     padding-bottom: 20px;
 }
 
+.app-testimonial-cta-title {
+    @include h2;
+}
+
 .app-testimonial-cta-description {
     @include h3;
     font-weight: 600;
     max-width: 624px;
     width: 100%;
     opacity: 0.85;
+}
+
+
+@media screen and(max-width: 1000px) {
+    .app-testimonial-box-headline {
+        flex-direction: column;
+    }
+
+    .app-testimonial-content-container {
+        max-width: 95%;
+        width: 100%;
+        margin: auto;
+    }
+    
 }

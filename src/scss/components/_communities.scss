@@ -76,3 +76,10 @@
     padding: 4px 0px 33px 64px;
 
 }
+
+@media screen and(max-width: 1000px) {
+    .app-community-container {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
