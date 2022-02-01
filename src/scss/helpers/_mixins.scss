@@ -16,6 +16,11 @@
     margin-top: 0;
     padding: 9px 20px;
     text-align: center;
+
+    &:hover {
+        -webkit-box-shadow: 0px 0px 16px 0px #fd9acd2a, 0px 0px 21px 21px #fd9acd2a; 
+        box-shadow: 0px 0px 16px 0px #fd9acd2a, 0px 0px 21px 21px #fd9acd2a;
+    }
 }
 
 @mixin btn-secondary {
